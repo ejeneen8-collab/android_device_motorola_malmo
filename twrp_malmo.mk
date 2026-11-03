@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/motorola/malmo/device.mk)
 
 PRODUCT_DEVICE := malmo
-PRODUCT_NAME := omni_malmo
+PRODUCT_NAME := twrp_malmo
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g85 5G
 PRODUCT_MANUFACTURER := motorola
