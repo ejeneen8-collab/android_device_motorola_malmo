@@ -21,11 +21,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.blair
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.blair \
-    libgptutils \
-    libz \
-    libcutils
+# PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#     bootctrl.blair \
+#     libgptutils \
+#     libz \
+#     libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
